@@ -58,7 +58,7 @@ header {
 
 .banner h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-family: "Muli", serif;
     font-weight: 200;
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
@@ -129,7 +129,7 @@ header {
     }
 }
 
-.download a{
+.download a {
     text-decoration: none;
     color: white;
 }
@@ -242,22 +242,6 @@ header {
         flex-direction: column;
         padding: 20px;
     }
-
-    .conhecimento:nth-child(1) {}
-
-    .conhecimento:nth-child(2) {}
-
-    .conhecimento:nth-child(3) {}
-
-    .conhecimento:nth-child(4) {}
-
-    .conhecimento:nth-child(5) {}
-
-    .conhecimento:nth-child(6) {}
-
-    .conhecimentos-img-wrapper {}
-
-    .conhecimentos-img-wrapper img {}
 }
 
 .line {
@@ -323,17 +307,30 @@ header {
 
 
 
+.sessao-sobre-mim {
+    padding: 7%;
+    background-color: #f5f5f5;
+}
 
 
+.meu-jeito {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
 
+.hobbies {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: underline #fb5283;  
+    font-family: "Roboto", sans-serif; 
+}
 
-
-
-
-
-
-
-
+.paragrapoh-hob {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
 
 .sessao-contato {
     width: 100%;
@@ -365,8 +362,8 @@ header {
         width: 94%;
         height: 60vh;
     }
-    
-    .contato-right{
+
+    .contato-right {
         width: 80%;
     }
 
@@ -381,14 +378,14 @@ header {
     text-align: center;
 }
 
-.contato-right h1{
+.contato-right h1 {
     margin-top: 25px;
     font-family: "Muli", serif;
 }
 
 .input-group {
     justify-content: center;
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 
 .field {
@@ -403,12 +400,12 @@ textarea {
     max-height: 2rem;
 }
 
-input::placeholder{
+input::placeholder {
     font-size: 1.4rem;
     font-family: "josefin Slab", serif;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     font-size: 1.5rem;
     font-family: "josefin Slab", serif;
 }
