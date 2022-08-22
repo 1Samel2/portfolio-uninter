@@ -36,10 +36,18 @@
         <ul id="menu">
             <li><a href="#">Menu</a>
                 <ul>
-                    <li><a href="https://wa.me/qr/BQ4VQBZQACITB1"><img class="img-menu" src="./assets/whatsapp-alt.svg" alt="whatsapp"/>WhatsApp</a></li>
-                    <li><a href="https://www.linkedin.com/in/samuel-guedes12/"><img class="img-menu" src="./assets/linkedin.svg" alt="linkedin"/>LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/invites/contact/?i=10sg1hldkp7se&utm_content=571bkd0"><img class="img-menu" src="./assets/instagram.svg" alt="instragram"/>Instagram</a></li>
-                    <li><a href="https://github.com/1Samel2"><img class="img-menu" src="./assets/github.svg" alt="github"/>Github</a></li>
+                    <li><a href="https://wa.me/qr/BQ4VQBZQACITB1"><img class="img-menu" src="./assets/whatsapp-alt.svg"
+                                alt="whatsapp" />WhatsApp</a></li>
+                    <li><a href="https://www.linkedin.com/in/samuel-guedes12/"><img class="img-menu"
+                                src="./assets/linkedin.svg" alt="linkedin" />LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/invites/contact/?i=10sg1hldkp7se&utm_content=571bkd0"><img
+                                class="img-menu" src="./assets/instagram.svg" alt="instragram" />Instagram</a></li>
+                    <li><a href="https://github.com/1Samel2"><img class="img-menu" src="./assets/github.svg"
+                                alt="github" />Github</a></li>
+                    <li><a href="#contato"><img class="img-menu" src="./assets/contato.png" alt="email" />Contato</a>
+                    <li><a href="#projetos">Prévia projetos</a>
+                    <li><a href="#conhecimentos">Meus conhecimentos</a>
+                    </li>
                 </ul>
             </li>
         </ul>
@@ -49,12 +57,12 @@
 
     <header id="home">
         <div class="img-wrapper">
-            <img src="./ASSETS/apple.jpg" alt="img-programador">
+            <img src="./assets/apple.jpg" alt="img-programador">
         </div>
         <div class="banner">
             <h1>Full Stack Developer</h1>
             <p>Samuel Santos Guedes</p>
-            <button>Saiba mais</button>
+            <a href="#sobre-mim" class="button-link"><button>Sobre mim</button></a>
             <button class="download"><a download="" href="./cv/samuel-santos-guedes-cv.pdf">Download CV</a></button>
         </div>
     </header>
@@ -133,43 +141,53 @@
                 </div>
             </div>
             <div class="conhecimentos-img-wrapper">
-                <img src="./ASSETS/conhecimentos.png" alt="sala-de-aula">
+                <img src="./assets/conhecimentos.png" alt="sala-de-aula">
             </div>
         </div>
     </section>
     <div class="line"></div>
-    <div class="sessao-header">
+    <div id="projetos" class="sessao-header">
         <h1>Meus projetos</h1>
     </div>
-    <section class="card-item">
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/Hamburguer1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Pedido de lanchonete</h5>
-                <p class="card-text">Ao digitar o seu pedido é criado uma ordem para a preparação</p>
-                <a href="https://github.com/1Samel2/pedidos_da_lanchonete" class="btn btn-primary">Click Repositório</a>
+    <section>
+        <div class="sessao-projetos ">
+            <div class="card" style="width: 16rem;">
+                <img src="./assets/conversor.png" class="card-img-top" alt="img-conversor">
+                <div class="card-body">
+                    <h5 class="title">O aplicativo converte real para dólar ou ao contrário</h5>
+                    <a class="button-link" href="https://1samel2.github.io/conversor-de-cambio/"> <button
+                            class="botao">Acessar</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 16rem;">
+                <img src="./assets/cadastro.png" class="card-img-top" alt="img-cadastro">
+                <div class="card-body">
+                    <h5 class="title">Armazena o seu nome e idade ao digitar</h5>
+                    <a class="button-link" href="https://github.com/1Samel2/cadastro"> <button
+                            class="botao">Acessar</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 16rem;">
+                <img src="./assets/Hamburguer1.png" class="card-img-top" alt="img-pedido">
+                <div class="card-body">
+                    <h5 class="title">Ao digitar o seu pedido é criado uma ordem para a preparação</h5>
+                    <a class="button-link" href="
+                        https://github.com/1Samel2/pedidos_da_lanchonete">
+                        <button class="botao">Acessar</button>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/cadastro.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Cadastro</h5>
-                <p class="card-text">Armazena o seu nome e idade ao digitar </p>
-                <a href="https://github.com/1Samel2/cadastro" class="btn btn-primary">Click Repositório</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/conversor.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Conversor</h5>
-                <p class="card-text">O aplicativo converte real para dólar ou ao contrário</p>
-                <a href="https://1samel2.github.io/conversor-de-cambio/" class="btn btn-primary">Click Repositório</a>
-            </div>
-        </div>
+
+
     </section>
     <div class="line"></div>
 
-    <section>
+    <section id="sobre-mim">
         <div class="sessao-sobre-mim">
             <div>
                 <p class="hobbies">Sobre mim</p>
@@ -183,8 +201,7 @@
             <div>
                 <p class="hobbies">Hobbies</p>
                 <p class="paragrapoh-hob">
-                    Pescar em rios, praticar musculação, jogar vídeos games online, aulas de algum tipo de luta, comer
-                    aquele famoso podrão
+                    Pescar em rios, praticar musculação, jogar vídeos games online, aulas de algum tipo de luta
                 </p>
             </div>
             <div>

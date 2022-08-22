@@ -321,9 +321,9 @@ header {
  } */
 
 
- #container {
+#container {
     position: relative;
-    text-align: center;		
+    text-align: center;
 }
 
 #container:after {
@@ -339,24 +339,25 @@ header {
     z-index: 1;
 }
 
-.img-menu{
+.img-menu {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
 
-#menu, #menu ul {
+#menu,
+#menu ul {
     list-style: none;
 }
 
 
-#menu > li {
+#menu>li {
 
     position: relative;
-    border-right: 1px solid rgba(0,0,0,.1);
-    box-shadow: 1px 0 0 rgba(255,255,255,.25);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, .25);
     perspective: 1000px;
-    
+
 }
 
 #menu a {
@@ -369,18 +370,18 @@ header {
     line-height: 1;
     font-weight: 600;
     font-size: 14px;
-    background: transparent;		
-    text-shadow: 0 1px 1px rgba(255,255,255,.9);
+    background: transparent;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .9);
     transition: all .25s ease-in-out;
 
 }
 
-#menu > li:hover > a {
+#menu>li:hover>a {
     color: white;
     text-shadow: none;
 }
 
-#menu li ul  {
+#menu li ul {
     position: absolute;
     left: 0;
     z-index: 1;
@@ -392,17 +393,17 @@ header {
     background: transparent;
     overflow: hidden;
     transform-origin: 50% 0%;
-  
+
 }
 
 
 #menu li:hover ul {
-    
+
     padding: 15px 0;
     background: #333;
     opacity: 1;
     visibility: visible;
-    box-shadow: 1px 1px 7px rgba(0,0,0,.5);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
     animation-name: swingdown;
     animation-duration: 1s;
     animation-timing-function: ease;
@@ -415,7 +416,7 @@ header {
         transform: rotateX(90deg);
     }
 
-    30% {			
+    30% {
         transform: rotateX(-20deg) rotateY(5deg);
         animation-timing-function: ease-in-out;
     }
@@ -443,9 +444,9 @@ header {
 
 #menu li li a:hover {
     color: white;
-    border-top: dotted 1px rgba(255,255,255,.15);
-    border-bottom: dotted 1px rgba(255,255,255,.15);
-    background: rgba(0,223,252,.02);
+    border-top: dotted 1px rgba(255, 255, 255, .15);
+    border-bottom: dotted 1px rgba(255, 255, 255, .15);
+    background: rgba(0, 223, 252, .02);
 }
 
 
@@ -677,33 +678,79 @@ header {
     border: 1px solid #e5e5e5;
 }
 
-.card-item {
+.sessao-projetos {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #f5f5f5;
-    padding-bottom: 100px;
     gap: 20px;
-}
-
-.btn-primary {
-    background: linear-gradient(to right, #fb5283, #ff3527);
-    border: none !important;
-}
-
-.card-body {
-    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 20px;
 }
 
 
-@media (max-width: 800px) {
-    .card-item {
+.card-img-top {
+    height: 100% !important;
+    width: 100% !important;
+    cursor: pointer;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+
+.card {
+    flex: none;
+}
+
+@media (max-width: 768px) {
+    .sessao-projetos {
+        display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
 }
 
 
+.title {
+    font-weight: bold;
+    padding: 1rem;
+}
+
+@media(max-width: 800px) {
+    .title {
+        font-size: 0.9rem;
+    }
+}
+
+span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.card-body {
+    padding: 0 !important;
+}
+
+
+.botao {
+    margin-top: 20px;
+    width: 100%;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-link{
+    text-decoration: none;
+    color: white;
+}
 
 
 .footer-content {
@@ -737,6 +784,7 @@ header {
 
 .sessao-sobre-mim {
     padding: 7%;
+    height: 100vh;
     background-color: #f5f5f5;
 }
 
