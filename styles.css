@@ -580,8 +580,8 @@ header {
     grid-row: 1 / 3;
 }
 
-.conhecimento:nth-child(2) { /* A pseudo-classe nth-child seleciona elementos dentre uma árvore de elementos se referindo a posição específica de cada um.
-    grid-column: 3 / 6; */
+.conhecimento:nth-child(2) { /* A pseudo-classe nth-child seleciona elementos dentre uma árvore de elementos se referindo a posição específica de cada um.*/
+    grid-column: 3 / 6; 
     grid-row: 4 / 4;
 }
 
