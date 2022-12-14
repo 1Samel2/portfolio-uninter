@@ -1,10 +1,16 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+    }
 });
 
 const btn = document.getElementById("btnTop")  /* exportei o id da pasta html para usar aqui  */
