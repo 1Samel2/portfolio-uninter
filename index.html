@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br"> <!-- pt-br para colocar o idioma em português  -->
+<html lang="pt-br">
+<!-- pt-br para colocar o idioma em português  -->
 
 <head>
     <meta charset="UTF-8">
@@ -11,12 +12,13 @@
     <!--  exportando a lib do bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-        </script>
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <title>Portfólio de Samuel Santos Guedes</title> <!-- titulo do site  -->
 </head>
 
-<body> <!-- <body> do HTML representa o conteúdo de um documento HTML -->
+<body>
+    <!-- <body> do HTML representa o conteúdo de um documento HTML -->
     <div id="container">
         <!-- O atributo global id define um identificador exclusivo (ID) que deve ser único por todo o documento. Seu objetivo é identificar o elemento ao navegar por âncoras (usando um identificador de fragmento), quando utilizar scripts ou estilizando (com CSS). -->
         <ul id="menu">
@@ -31,9 +33,11 @@
                                 class="img-menu" src="./assets/instagram.svg" alt="instragram" />Instagram</a></li>
                     <li><a href="https://github.com/1Samel2"><img class="img-menu" src="./assets/github.svg"
                                 alt="github" />Github</a></li>
+
                     <li><a href="#contato"><img class="img-menu" src="./assets/contato.png" alt="email" />Contato</a>
                     <li><a href="#projetos">Prévia projetos</a>
                     <li><a href="#conhecimentos">Meus conhecimentos</a>
+                    <li><a href="#experiencia">Experiência profissional</a>
                     </li>
                 </ul>
             </li>
@@ -137,7 +141,8 @@
         </div>
     </section>
     <div class="line"></div>
-    <div id="projetos" class="sessao-header"> <!-- Criei uma sessão com uma previa dos projetos que ja fiz do github -->
+    <div id="projetos" class="sessao-header">
+        <!-- Criei uma sessão com uma previa dos projetos que ja fiz do github -->
         <h1>Meus projetos</h1>
     </div>
     <section>
@@ -145,36 +150,24 @@
 
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
+
                     <div class="swiper-slide">
                         <div class="card" style="width: 16rem;">
-                            <img src="./assets/cadastro.png" class="card-img-top" alt="img-cadastro">
+                            <img src="./img-projeto/front-end-code.jpeg" class="card-img-top" alt="img api">
                             <div class="card-body">
-                                <h5 class="title">Armazena o seu nome e idade ao digitar</h5>
-                                <a class="button-link" href="https://github.com/1Samel2/cadastro"> <button
-                                        class="botao">Acessar</button>
-                                    <!--  botões com link para redirecionar ao projeto -->
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="swiper-slide">
-                        <div class="card" style="width: 16rem;">
-                            <img src="./assets/conversor.png" class="card-img-top" alt="img-conversor">
-                            <div class="card-body">
-                                <h5 class="title">O aplicativo converte real para dólar ou ao contrário</h5>
-                                <a class="button-link" href="https://1samel2.github.io/conversor-de-cambio/"> <button
+                                <h5 class="title">Este projeto é uma aplicação web moderna</h5>
+                                <a class="button-link" href="https://github.com/1Samel2/front-burger"> <button
                                         class="botao">Acessar</button> <!-- lib do bootstrap de card  -->
                                 </a>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="swiper-slide">
                         <div class="card" style="width: 16rem;">
-                            <img src="./assets/" class="card-img-top" alt="img api">
+                            <img src="./img-projeto/back-end.jpeg" class="card-img-top" alt="img movie_search">
                             <div class="card-body">
-                                <h5 class="title">Api de lanchonete</h5>
+                                <h5 class="title">Este projeto é uma aplicação back-end robusta</h5>
                                 <a class="button-link" href="https://github.com/1Samel2/Api_burger"> <button
                                         class="botao">Acessar</button> <!-- lib do bootstrap de card  -->
                                 </a>
@@ -184,10 +177,23 @@
 
                     <div class="swiper-slide">
                         <div class="card" style="width: 16rem;">
-                            <img src="./assets/" class="card-img-top" alt="img movie_search">
+                            <img src="./img-projeto/cadastro.png" class="card-img-top" alt="img-cadastro">
                             <div class="card-body">
-                                <h5 class="title">Movie Search</h5>
-                                <a class="button-link" href="https://github.com/1Samel2/movie_search"> <button
+                                <h5 class="title">Armazena o seu nome e idade ao digitar</h5>
+                                <a class="button-link" href="https://github.com/1Samel2/cadastro"> <button
+                                        class="botao">Acessar</button>
+                                    <!--  botões com link para redirecionar ao projeto -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./img-projeto/conversor.png" class="card-img-top" alt="img-conversor">
+                            <div class="card-body">
+                                <h5 class="title">O aplicativo converte real para dólar ou ao contrário</h5>
+                                <a class="button-link" href="https://1samel2.github.io/conversor-de-cambio/"> <button
                                         class="botao">Acessar</button> <!-- lib do bootstrap de card  -->
                                 </a>
                             </div>
@@ -196,15 +202,31 @@
 
                     <div class="swiper-slide">
                         <div class="card" style="width: 16rem;">
-                            <img src="./assets/" class="card-img-top" alt="img-projeto">
+                            <img src="./img-projeto/trabalho.jpeg" class="card-img-top" alt="img-projeto">
                             <div class="card-body">
-                                <h5 class="title"></h5>
-                                <a class="button-link" href="https://1samel2.github.io/conversor-de-cambio/"> <button
+                                <h5 class="title">Esse projeto foi feito para um TCC da faculdade que estou cursando
+                                </h5>
+                                <a class="button-link" href="https://github.com/1Samel2/Queijo-minas-dias"> <button
                                         class="botao">Acessar</button> <!-- lib do bootstrap de card  -->
                                 </a>
                             </div>
                         </div>
                     </div>
+
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./img-projeto/search.jpeg" class="card-img-top" alt="img movie_search">
+                            <div class="card-body">
+                                <h5 class="title">
+                                    Desenvolvida com o objetivo de fornecer aos usuários uma lista completa e atualizada
+                                    de filmes</h5>
+                                <a class="button-link" href="https://github.com/1Samel2/movie_search"> <button
+                                        class="botao">Acessar</button> <!-- lib do bootstrap de card  -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="swiper-pagination" style="position: relative; top: 6px;"></div>
             </div>
@@ -225,7 +247,7 @@
                 </p>
                 <p class="meu-jeito">
                     Função: Front-end, com desenvolvimento de e-commerce em React.
-                <p class="meu-jeito">Projetos que atuei junto: Trigg, Xp, Envision, Safra Card, Hands Safe</p>
+                    <p class="meu-jeito">Projetos que atuei junto: Trigg, Xp, Envision, Safra Card, Hands Safe</p>
                 </p>
             </div>
         </div>
@@ -286,7 +308,8 @@
     </div>
 
     <footer>
-        <div class="footer-content"> <!-- esse é um footer que tem em quase todos os sites que é o rodapé  -->
+        <div class="footer-content">
+            <!-- esse é um footer que tem em quase todos os sites que é o rodapé  -->
             <div class="divContent">
                 <p class="paragraph">Minhas rede sociais</p>
                 <a href="https://www.instagram.com/invites/contact/?i=10sg1hldkp7se&utm_content=571bkd0"><img
