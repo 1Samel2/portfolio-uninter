@@ -427,6 +427,7 @@ header {
 .title {
     font-weight: bold;
     padding: 1rem;
+    text-align: left;
 }
 
 @media(max-width: 800px) {
